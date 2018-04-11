@@ -45,7 +45,36 @@
         </div>
     </header>
     <section class="container-fluid" >
-        
+        <div class="row bg-color-contact">
+            <div class="form-bg-color">
+                <div>
+                    <h3 class="contact-heading">Book us for a private event!</h3>
+                    <h5>Questions, fanmail, or interested in booking us for a special event? Drop us a message below. </h5>
+                </div>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
+                        <textarea rows="5" name="eventsummary" class="form-control" id="eventsummary" placeholder="Message" required></textarea>
+                        <div class="radio-btns">
+                            <div class="message-type">
+                                  <input class="message-type-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                  <label class="message-type-label" for="gridRadios1">Question</label>
+                            </div>
+                            <div class="message-type">
+                                  <input class="message-type-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                  <label class="message-type-label" for="gridRadios2">Fanmail</label>
+                            </div>
+                            <div class="message-type">
+                                  <input class="message-type-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                  <label class="message-type-label" for="gridRadios3">Booking</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-lg">Send Message</button>
+                    </form>
+                </div>
+            </div>    
+        </div> 
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
