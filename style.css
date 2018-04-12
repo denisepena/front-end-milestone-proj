@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Smythe:100,200,300,400,500,600,700|open+sans:100,200,300,400,500,600,700');
 
 /*---------------------Headers*/
+h1 {
+    font-family: "Smythe", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 10px;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+h2 {
+    font-family: "smythe";
+    font-size: 25px;
+    color: #ffffff;
+    margin: auto;
+    font-weight:200;
+    text-align: center;
+}
 h3 {
     font-family: "Smythe", sans-serif;
     font-weight: 500;
@@ -25,13 +42,7 @@ h5 {
     margin: auto;
     font-weight:200;
 }
-h2 {
-    font-family: "Smythe",sans-serif;
-    font-size: 25px;
-    color: #ffffff;
-    margin: auto;
-    font-weight:200;
-}
+
 p {
     color: #fafafa;
 }
@@ -115,6 +126,10 @@ p {
     text-transform: uppercase;
 }
 
+#media-disable {
+    cursor: default;
+
+}
 /*-------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
@@ -132,29 +147,16 @@ p {
 }
 
 /*---------------------Home Section*/
-.header {
-    margin: auto;
-}
-
-.heading {
-    text-align: center;
-}
-
-.home-title {
-    font-family: "Smythe", sans-serif;
-    font-weight: 100;
-    font-size: 46px;
-    margin-top: 10px;
-    color: #ffffff;
-}
 
 .home-sub-title {
-    font-family: "open+sans", sans-serif;
+    font-family: "smythe";
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #ffffff;
+    text-align: center;
+    margin: auto;
 }
 
 #home-img {
@@ -163,6 +165,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     height: auto;
+    padding-top: 25px;
 }
 
 .container-fluid {
@@ -180,12 +183,16 @@ p {
     background-color: gba(0, 0, 0, 0.7);
     height:100px;
     margin: auto;
-}
-.info-booking {
     text-align: center;
-    text-decoration: none;
-    padding: 30px;
-    width: 70%;
+    padding: 10px;
+    font-family: "open+sans";
+}
+
+.home-booking-text {
+    color: #ffffff;
+    font-family: "open+sans";
+    font-size: 15px;
+    padding-top: 5px;
 }
 
 /*---------------------Band Section*/
@@ -198,14 +205,20 @@ p {
     font-family: "open+sans";
     font-weight: 300;
 }
-.band-bio-pic {
+.band-bio-pic-bg {
     text-align: center;
     margin: 0 auto;
-    max-height: 250px;
     width: 50%;
 }
 .band-text {
     margin-top: 15px;
+}
+
+#band-bio-pic {
+    width:100%;
+    margin: auto;
+    padding: 10px;
+    max-height: 250px;
 }
 
 #img-band {
@@ -233,6 +246,7 @@ p {
 .band-member-img {
     margin: auto;
     width:100%;
+    margin-top: 20px;
 }
 /*---------------------News Section*/
 .content {
@@ -302,6 +316,7 @@ p {
     font-family: "open+sans";
     font-size: 15px;
     width: 70%;
+    margin-bottom: 50px;
 }
 .blog-date {
     text-align: left!important;
@@ -337,11 +352,13 @@ p {
     vertical-align: top;
     font-weight: 400;
     font-size: 15px;
+    padding: 10px;
 }
 
 .spotify {
     text-align: left;
     padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 .spotify-description {
@@ -430,7 +447,7 @@ label {
     text-align: center;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 .form-control {
     padding: 10px;
