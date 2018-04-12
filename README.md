@@ -20,14 +20,14 @@ HTML5, CSS3, Bootstrap
 ##DESCRIPTION
 This website serves to provide users with information about the band, “The Monkees”. Here they can see photos, videos, listen to music, learn about history or recent news, and contact the band.
 
-> The main nav includes 6 buttons, and 1 dropdown menu. 
-> The footer includes social links to 4 networks.
-> The homepage includes a CTA for users to contact the band for private bookings.
-> The Band page utilizes Bootstrap grids to make layout responsive, with custom CSS styling. 
-> The News page utilizes Bootstrap grids to make layout responsive, with custom CSS styling. It includes a sidebar timeline of milestone moments for the band. This page also includes a blog-like layout to post continuous updates.
-> The Music page utilizes Bootstrap grids to make layout responsive, with custom CSS styling. It also includes 3 playlists from Spotify with a description for each. 
-> The Music page utilizes Bootstrap grids to make layout responsive, with custom CSS styling. > The Videos page displays a video, responsive to size.
-> The Contact page includes a form with 4 fields, 3 are required. The HTML email type validates if an email has an @ symbol. 
+- The main nav includes 6 buttons, and 1 dropdown menu. 
+- The footer includes social links to 4 networks.
+- The homepage includes a CTA for users to contact the band for private bookings.
+- The Band page utilizes Bootstrap grids to make layout responsive, with custom CSS styling. 
+- The News page utilizes Bootstrap grids to make layout responsive, with custom CSS styling. It includes a sidebar timeline of milestone moments for the band. This page also includes a blog-like layout to post continuous updates.
+- The Music page utilizes Bootstrap grids to make layout responsive, with custom CSS styling. It also includes 3 playlists from Spotify with a description for each. 
+- The Music page utilizes Bootstrap grids to make layout responsive, with custom CSS styling. > The Videos page displays a video, responsive to size.
+- The Contact page includes a form with 4 fields, 3 are required. The HTML email type validates if an email has an @ symbol. 
 
 
 
